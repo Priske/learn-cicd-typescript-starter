@@ -3,3 +3,24 @@ coverage/
 dist/
 .env
 .vscode
+
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+coverage/
+
+# Environment / secrets
+.env
+.env.*
+*.json.key
+
+# Google Cloud SDK installed locally
+google-cloud-sdk/
+
+# Google Cloud credentials created by GitHub Actions
+gha-creds-*.json
+
+google-cloud-cli-linux-x86_64.tar.gz
